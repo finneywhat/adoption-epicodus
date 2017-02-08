@@ -19,8 +19,40 @@
 
 .pets .dog{
   float: none;
+  border: 2px solid black;
 }
 
-.pets .cat{
+.dog ul{
+  list-style-type: none;
+}
+
+.pets .dog div{
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px 10px;
+  text-align: left;
+}
+
+.cat {
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+/*.pets .cat{
   float: none;
+  margin-top: 50%;
+}*/
+
+.pets .cat div{
+  display: inline-block;
+  /*padding: 10px 10px;*/
+}
+
+.cat ul{
+  list-style-type: none;
+}
+
+.pets img {
+  width: 300px;
+  height: 300px;
 }

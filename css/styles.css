@@ -1,0 +1,26 @@
+.sidebar{
+  float: left;
+  width: 20%;
+  background-color: mediumblue;
+  border: 2px solid black;
+  color: white;
+  margin-right: 10px;
+}
+
+.pets{
+  background-color: lightblue;
+  font-family: sans-serif;
+  float: left;
+  border: 2px solid black;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.pets .dog{
+  float: none;
+}
+
+.pets .cat{
+  float: none;
+}
